@@ -11,10 +11,9 @@ with open('the100.py') as f:
         r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
 
 setup(name='the100',
-      author='Mike Hennessy',
+      author='Michael Hennessy',
       author_email='henworth@henabytes.com',
       version=version,
       license='MIT',
       description='An asynchronous Python client for accessing the100.io API',
-      install_requires=requirements,
-      packages=['the100'])
+      install_requires=requirements)
