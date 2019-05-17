@@ -16,4 +16,5 @@ setup(name='the100',
       version=version,
       license='MIT',
       description='An asynchronous Python client for accessing the100.io API',
-      install_requires=requirements)
+      install_requires=requirements,
+      py_modules=['the100'])
